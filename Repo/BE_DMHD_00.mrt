@@ -1,0 +1,1282 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="3">
+      <Table0 Ref="2" type="DataTableSource" isKey="true">
+        <Alias>Table0</Alias>
+        <Columns isList="true" count="5">
+          <value>Status,System.String</value>
+          <value>Note,System.String</value>
+          <value>Msg,System.String</value>
+          <value>Repo_Name,System.String</value>
+          <value>M_Title,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Table0</Name>
+        <NameInSource>CyberDataSource.Table0</NameInSource>
+      </Table0>
+      <Table1 Ref="3" type="DataTableSource" isKey="true">
+        <Alias>Table1</Alias>
+        <Columns isList="true" count="86">
+          <value>Stt_Rec_PTV,System.String</value>
+          <value>Ma_HD,System.String</value>
+          <value>Ngay_HD1,System.DateTime</value>
+          <value>StrNgay_HD1,System.String</value>
+          <value>Ngay_Ct_HDC,System.DateTime</value>
+          <value>StrNgay_Ban,System.String</value>
+          <value>Ma_Hs,System.String</value>
+          <value>Ten_Hs,System.String</value>
+          <value>Ma_ChucVu,System.String</value>
+          <value>Ten_ChucVu,System.String</value>
+          <value>Ten_HD,System.String</value>
+          <value>Dia_Chi,System.String</value>
+          <value>DT1,System.String</value>
+          <value>Ngay_Sinh,System.DateTime</value>
+          <value>StrNgay_Sinh,System.String</value>
+          <value>So_CCCD,System.String</value>
+          <value>Ghi_Chu,System.String</value>
+          <value>So_Khung,System.String</value>
+          <value>So_May,System.String</value>
+          <value>Ma_Kx,System.String</value>
+          <value>Ten_Kx,System.String</value>
+          <value>Nh_Kx1,System.String</value>
+          <value>Ten_Nh_Kx1,System.String</value>
+          <value>Ma_Mau,System.String</value>
+          <value>Ten_Mau,System.String</value>
+          <value>Ma_KTV,System.String</value>
+          <value>Ten_KTV,System.String</value>
+          <value>Dvt,System.String</value>
+          <value>So_Luong,System.Decimal</value>
+          <value>Tien_Xe_VAT,System.Decimal</value>
+          <value>Giam_Gia_Xe_VAT,System.Decimal</value>
+          <value>Phi_TB,System.Decimal</value>
+          <value>Phi_Bien_So,System.Decimal</value>
+          <value>TT_Xe,System.Decimal</value>
+          <value>T_TT_PK,System.Decimal</value>
+          <value>T_TT_Nt,System.Decimal</value>
+          <value>GG_Sk,System.Decimal</value>
+          <value>T_Gop,System.Decimal</value>
+          <value>Dat_Coc,System.Decimal</value>
+          <value>TT_QR,System.Decimal</value>
+          <value>Cong_No,System.Decimal</value>
+          <value>Tong_TT,System.Decimal</value>
+          <value>T_TT,System.Decimal</value>
+          <value>TT_TM,System.Decimal</value>
+          <value>TT_Ck,System.Decimal</value>
+          <value>TT_QuetThe,System.Decimal</value>
+          <value>Tra_Gop,System.Decimal</value>
+          <value>Con_No,System.Decimal</value>
+          <value>StrCon_No,System.String</value>
+          <value>Bang_Chu,System.String</value>
+          <value>StrCong_No,System.String</value>
+          <value>Bang_Chu_Cong_No,System.String</value>
+          <value>StrNgay_Giao_Hang,System.String</value>
+          <value>Phi_Dang_Ky,System.Decimal</value>
+          <value>StrPhi_Dang_Ky,System.String</value>
+          <value>HT_Ban,System.String</value>
+          <value>Giam_Gia_Hang,System.Decimal</value>
+          <value>StrGiam_Gia_Hang,System.String</value>
+          <value>Giam_Gia,System.Decimal</value>
+          <value>StrGiam_Gia,System.String</value>
+          <value>Ma_TTCP,System.String</value>
+          <value>Ten_TTCP,System.String</value>
+          <value>Dia_Chi_TTCP,System.String</value>
+          <value>Hotline,System.String</value>
+          <value>StrTT_DangKy,System.String</value>
+          <value>Ten_TP,System.String</value>
+          <value>Loai_TT,System.String</value>
+          <value>ImgQR,System.String</value>
+          <value>TT_Ngan_Hang,System.String</value>
+          <value>Thoi_Gian_In,System.String</value>
+          <value>M_Title,System.String</value>
+          <value>Ten_Cty,System.String</value>
+          <value>Email_Cty,System.String</value>
+          <value>Website_Cty,System.String</value>
+          <value>Dia_Chi1,System.String</value>
+          <value>Dien_Thoai1,System.String</value>
+          <value>Dia_Chi2,System.String</value>
+          <value>Dien_Thoai2,System.String</value>
+          <value>Dia_Chi3,System.String</value>
+          <value>Dien_Thoai3,System.String</value>
+          <value>Dia_Chi4,System.String</value>
+          <value>Dien_Thoai4,System.String</value>
+          <value>Ten_Kho,System.String</value>
+          <value>Ngay_In,System.Int32</value>
+          <value>Thang_In,System.Int32</value>
+          <value>Nam_In,System.Int32</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Table1</Name>
+        <NameInSource>CyberDataSource.Table1</NameInSource>
+      </Table1>
+      <Table2 Ref="4" type="DataTableSource" isKey="true">
+        <Alias>Table2</Alias>
+        <Columns isList="true" count="14">
+          <value>Stt,System.Int64</value>
+          <value>Fsort,System.String</value>
+          <value>Ftag,System.String</value>
+          <value>Bold,System.String</value>
+          <value>Stt_Rec0,System.String</value>
+          <value>Ma,System.String</value>
+          <value>Ten,System.String</value>
+          <value>So_Khung,System.String</value>
+          <value>So_May,System.String</value>
+          <value>Ten_Mau,System.String</value>
+          <value>Dvt,System.String</value>
+          <value>So_Luong,System.Decimal</value>
+          <value>Gia,System.Decimal</value>
+          <value>T_TT,System.Decimal</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Table2</Name>
+        <NameInSource>CyberDataSource.Table2</NameInSource>
+      </Table2>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Resources isList="true" count="0" />
+    <Variables isList="true" count="16">
+      <value>,SO_LIEN,SO_LIEN,,System.String,_x0030_,False,False,False,False</value>
+      <value>,SO_CT_GOC,SO_CT_GOC,,System.String,,False,False,False,False</value>
+      <value>,STT_SO_LIEN,STT_SO_LIEN,,System.String,_x0031_,False,False,False,False</value>
+      <value>,M_DIA_CHI,M_DIA_CHI,,System.String,_x0031_162_x0020_Quang_x0020_Trung_x002C__x0020_Phường_x0020_Chánh_x0020_Lộ_x002C__x0020_Thành_x0020_phố_x0020_Quảng_x0020_Ngãi_x002C__x0020_Tỉnh_x0020_Quảng_x0020_Ngãi_x002C__x0020_Việt_x0020_Nam,False,False,False,False</value>
+      <value>,M_DIEN_THOAI,M_DIEN_THOAI,,System.String,_x0031_900.54.54.34,False,False,False,False</value>
+      <value>,M_EMAIL,M_EMAIL,,System.String,info_x0040_songtra-motor.com,False,False,False,False</value>
+      <value>,M_FAX,M_FAX,,System.String,_x0030_43_x0020_-7765_x0020_047,False,False,False,False</value>
+      <value>,M_MA_SO_THUE,M_MA_SO_THUE,,System.String,_x0030_101419580,False,False,False,False</value>
+      <value>,M_TEN_CTY,M_TEN_CTY,,System.String,CÔNG_x0020_TY_x0020_CỔ_x0020_PHẦN_x0020_THƯƠNG_x0020_MẠI_x0020_BẮC_x0020_SÔNG_x0020_TRÀ,False,False,False,False</value>
+      <value>,M_TEN_TCTY,M_TEN_TCTY,,System.String,,False,False,False,False</value>
+      <value>,M_TEN_GD,M_TEN_GD,,System.String,Trần_x0020_Trọng_x0020_Bình,False,False,False,False</value>
+      <value>,M_TEN_KTT,M_TEN_KTT,,System.String,,False,False,False,False</value>
+      <value>,M_WEBSITE,M_WEBSITE,,System.String,www.songtra-motor.com,False,False,False,False</value>
+      <value>,M_TEN_NLB,M_TEN_NLB,,System.String,Nguyễn_x0020_Hữu_x0020_Cường,False,False,False,False</value>
+      <value>,M_TITLE1,M_TITLE1,,System.String,PHIẾU_x0020_BIÊN_x0020_NHẬN,False,False,False,False</value>
+      <value>,M_TITLE2,M_TITLE2,,System.String,PHIẾU_x0020_BIÊN_x0020_NHẬN,False,False,False,False</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="5" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="1">
+        <TitleBand Ref="6" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.2,5.33,6.6</ClientRectangle>
+          <Components isList="true" count="55">
+            <Text67 Ref="7" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.6,1.1,1.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>0281fc3951514dc5b87dc9915e98bae6</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text67</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>{Table1.Ten_Kho}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text67>
+            <Text3 Ref="8" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.1,0.1,5.2,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9,Bold</Font>
+              <Guid>78db1f41e3f646f98abb7c39add46d5b</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text3</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>{Table1.Ten_Cty}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="9" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text3>
+            <Text13 Ref="10" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>0.9,0.3,4.4,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>a106ec0fb1674d41a27f03e509fe5fed</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text13</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>{Table1.Dia_Chi1}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="11" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text13>
+            <Text14 Ref="12" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>0.9,0.5,4.4,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>a0cd1eb981be48198332df0bfca2ad8f</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text14</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>{Table1.Dia_Chi2}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="13" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text14>
+            <Text49 Ref="14" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.1,1.3,5.2,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9,Bold</Font>
+              <Guid>2936dc15c9004ff8a33ef6a9f1414035</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text49</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>{Table1.M_Title}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="15" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text49>
+            <Text27 Ref="16" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.7,1.6,2.6,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9,Italic</Font>
+              <Guid>8c44c794f9ff4b618e104223e991a6aa</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text27</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>{Table1.StrNgay_Ban}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="17" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text27>
+            <Text28 Ref="18" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.1,2,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9,Bold| Underline</Font>
+              <Guid>b16b13c422c949c1be786c64effca5d6</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text28</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>BÊN BÁN</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="19" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text28>
+            <Text30 Ref="20" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.1,2.2,0.5,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>8790e486a0f641238ac99754eea0fa1c</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text30</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>Ông/bà:</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="21" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text30>
+            <Text31 Ref="22" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.6,2.2,2.4,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>acfed902dc7d4c83a2f589d8ab643617</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text31</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>: {Table1.Ten_Hs}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="23" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text31>
+            <Text32 Ref="24" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3,2.2,0.5,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>aea7a01670ba4c7c90bca254444fa27d</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text32</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>Chức vụ:</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="25" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text32>
+            <Text33 Ref="26" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.5,2.2,1.8,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>43058c76cf214a3eb7d564f3cb322ee9</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text33</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>{Table1.Ten_ChucVu}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="27" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text33>
+            <Text34 Ref="28" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.1,2.4,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9,Bold| Underline</Font>
+              <Guid>9ee776a972134f82ae6c6d6bfda56a5d</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text34</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>BÊN MUA:</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="29" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text34>
+            <Text35 Ref="30" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.8,2.4,2.2,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9,Bold</Font>
+              <Guid>a266254a5c264da792c1b9409da84367</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text35</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>Ông/(bà) {Table1.Ten_HD}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="31" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text35>
+            <Text36 Ref="32" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.1,2.6,0.5,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>0b57bbb27a244ea59b123972b52b3a89</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text36</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>Địa chỉ:</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="33" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text36>
+            <Text37 Ref="34" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.6,2.6,4.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>8b1f575ca45447b58e6ea8675487b3ab</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text37</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>{Table1.Dia_Chi}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="35" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text37>
+            <Text38 Ref="36" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3,2.4,0.6,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>4ee886838ef54bc9914330316da32877</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text38</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>Điện thoại:</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="37" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text38>
+            <Text39 Ref="38" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.6,2.4,1.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>e766ad6dd5124b55b2b844ab68ac7321</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text39</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>{Table1.DT1}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="39" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text39>
+            <Text40 Ref="40" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.1,2.8,0.6,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>51e966af1ec74d36a7e238a4999f8aba</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text40</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>Ngày sinh:</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="41" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text40>
+            <Text41 Ref="42" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.7,2.8,2.3,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>d02310a6875a433a9e999168fff41c9f</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text41</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>{Table1.StrNgay_Sinh}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="43" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text41>
+            <Text42 Ref="44" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3,2.8,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>24087902341a496590bc27f3bce82397</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text42</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>Số CCCD:</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="45" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text42>
+            <Text43 Ref="46" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.7,2.8,1.6,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>6c689f3bd4ec44d6afd194ad57e5ad47</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text43</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>{Table1.So_CCCD}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="47" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text43>
+            <Text44 Ref="48" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0.1,3,5.2,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9,Bold</Font>
+              <Guid>27dd63e76a5143298247101c214e5404</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text44</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>II. SAU KHI THỐNG NHẤT, HAI BÊN TIẾN HÀNH GIAO NHẬN HÀNG HOÁ VỚI NỘI DUNG SAU:</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="49" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text44>
+            <Text45 Ref="50" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.1,3.3,2.4,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>5077798d4e454c6197cd00c900fd567e</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text45</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>Bên A bán cho bên B một (01) xe máy nhãn hiệu:</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="51" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text45>
+            <Text46 Ref="52" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.5,3.3,2.8,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9,Bold</Font>
+              <Guid>f6217397f691464aac7b9028a6e743b1</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text46</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>{Table1.Ten_Nh_Kx1}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="53" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text46>
+            <Text47 Ref="54" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.1,3.5,0.6,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>073784000b9c4420ae6bbf30522bd4d0</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text47</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>LOẠI XE:</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="55" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text47>
+            <Text48 Ref="56" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.7,3.5,2.5,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>5c923bb0733c4ce4a702cb24a9259809</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text48</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>{Table1.Ten_Kx}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="57" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text48>
+            <Text50 Ref="58" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.2,3.5,0.4,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>3229bbd528e8458ba8bdabc9dd13b355</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text50</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>MÀU:</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="59" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text50>
+            <Text51 Ref="60" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.6,3.5,1.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>9b6e519dbdc7401e9b273568b0134882</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text51</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>{Table1.Ten_Mau}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="61" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text51>
+            <Text52 Ref="62" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.1,3.7,0.6,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>f42bf5f16f424796b5f91d450b8cb0f3</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text52</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>SỐ MÁY:</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="63" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text52>
+            <Text53 Ref="64" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.7,3.7,2.5,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>63604320b71b45a69e728d9c84f74f57</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text53</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>: {Table1.So_May}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="65" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text53>
+            <Text54 Ref="66" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.2,3.7,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>cc4090b3ef4f42a68520e460f551ab81</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text54</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>SỐ KHUNG:</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="67" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text54>
+            <Text55 Ref="68" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.9,3.7,1.4,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>17b82ecb4c27489293555e3c5ba55f37</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text55</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>: {Table1.So_Khung}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="69" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text55>
+            <Text56 Ref="70" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.1,4.1,2.3,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9,Bold</Font>
+              <Guid>051e1377d4294056a5da2111d3f0797e</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text56</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>Số tiền còn nợ lại bên mua cần thanh toán :</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="71" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text56>
+            <Text57 Ref="72" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.4,4.1,2.9,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>c11922b8411141b48159b8587af19bcd</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text57</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>{Table1.StrCon_No}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="73" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text57>
+            <Text58 Ref="74" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.1,4.3,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9,Italic</Font>
+              <Guid>5ab10c899cb34b57baf9189b9979d827</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text58</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>Bằng chữ:</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="75" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text58>
+            <Text59 Ref="76" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.8,4.3,4.5,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9,Italic</Font>
+              <Guid>68d1569002264049a896bfbe6d9a7014</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text59</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>{Table1.Bang_Chu}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="77" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text59>
+            <Text64 Ref="78" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.1,4.5,5.2,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9,Bold</Font>
+              <Guid>8811e0c221044ee8b9e49835333afc7f</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text64</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>III. LƯU Ý:</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="79" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text64>
+            <Text65 Ref="80" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.1,4.7,5.2,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>6b325890a91142219faed1f90463c06e</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text65</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>3.1.Bên mua phải thanh toán đủ số tiền còn nợ lại cho bên bán trước khi nhận hồ sơ (nếu có).</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="81" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text65>
+            <Text66 Ref="82" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0.1,5,5.2,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>0b7f06d197c24b1bb59b72948ab90103</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text66</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>3.2. Trong thời gian 30 ngày Bên Mua không thanh toán đủ số tiền còn lại thì Bên Mua sẽ bị phạt 1%/ tháng đối với phần Giá trị còn lại, bên bán có quyền thu hồi xe</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="83" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text66>
+            <Text68 Ref="84" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0.1,5.4,5.2,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>373c0c10768f4d919eaab79f06971944</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text68</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>3.3. Bên mua nhớ trình biên nhận này khi nhận hồ sơ</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="85" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text68>
+            <Text69 Ref="86" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0.1,5.6,5.2,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>c93ac74a2c6b425c94061cb4cbce02cb</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text69</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>3.4. Hồ sơ gồm:
+</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="87" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text69>
+            <Text72 Ref="88" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.1,6.4,2.6,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9,Bold</Font>
+              <Guid>e00daf9bac4b427ea2e212662d39e071</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text72</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>BÊN MUA</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="89" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text72>
+            <Text73 Ref="90" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.7,6.4,2.6,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9,Bold</Font>
+              <Guid>a7fd20602c664bb2af8893e30a0ffc18</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text73</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>ĐẠI DIỆN BÊN BÁN</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="91" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text73>
+            <Image1 Ref="92" type="Image" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.1,0.3,0.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <HorAlignment>Right</HorAlignment>
+              <Image>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</Image>
+              <Margins>0,0,0,0</Margins>
+              <Name>Image1</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Stretch>True</Stretch>
+              <VertAlignment>Center</VertAlignment>
+            </Image1>
+            <Text6 Ref="93" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.1,1.6,2.6,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9,Italic</Font>
+              <Guid>5548f9f68ab84c5a95b0dd0c3950a2a9</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>Hợp đồng số: {Table1.Ma_HD}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="94" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text6>
+            <Text22 Ref="95" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.1,3.9,1.1,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9,Bold</Font>
+              <Guid>bd4462f660d842278c218c0f71519ef9</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text22</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>Hình thức bán: </Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="96" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text22>
+            <Text7 Ref="97" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.2,3.9,4.1,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>3c36d45c65f84ef1bb71bf52b2ce6086</Guid>
+              <HideZeros>True</HideZeros>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text7</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>{Table1.HT_Ban}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="98" type="NumberFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
+                <GroupSeparator> </GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <State>DecimalDigits</State>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text7>
+            <Text4 Ref="99" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>0.9,0.7,4.4,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>9f3792509b7b403498364d65b3aafa08</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text4</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>{Table1.Dia_Chi3}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="100" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text4>
+            <Text5 Ref="101" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>0.9,0.9,4.4,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>106e173f9d7246dfa7943d83946ddd38</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text5</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>{Table1.Dia_Chi4}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="102" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text5>
+            <Text8 Ref="103" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>0.9,1.1,2.6,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>8ab901d65eab4d0584324426b9b23a59</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text8</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>Hotline: {Table1.Hotline}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="104" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text8>
+            <Text9 Ref="105" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0.2,5.8,5.1,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>9260a43d9ff742009794a7b80a785287</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text9</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>+ Hóa đơn, Giấy ủy quyền và phiếu kiểm tra chất lượng xuất xưởng</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="106" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text9>
+            <Text10 Ref="107" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0.2,6,5.1,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9</Font>
+              <Guid>decf85a360874448b081401defec05ac</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text10</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>+ Giấy nộp tiền lệ phí trước bạ ( nếu hình bán bao lệ phí trước bạ và phí đăng ký biển số)</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="108" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text10>
+            <Text11 Ref="109" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0.2,6.2,5.1,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9,Italic</Font>
+              <Guid>342ad2be0dd74451b0cb87433beb5ba1</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text11</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>{Table1.StrTT_DangKy}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="110" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text11>
+            <Text1 Ref="111" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.1,1.8,5.2,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9,Bold</Font>
+              <Guid>bdea54aac22041aa9df8142358d513fa</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>I. CHÚNG TÔI GỒM</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="112" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text1>
+            <Text2 Ref="113" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.8,2,4.5,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Times New Roman,9,Bold</Font>
+              <Guid>d56ee834dad44939a0626dbab7a00c5e</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>: {Table1.Ten_Cty}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="114" type="CustomFormat" isKey="true">
+                <StringFormat>"Ngày: "dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text2>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>TitleBand</Name>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+        </TitleBand>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>c7391d26e9df4130bef95ad58c6868b7</Guid>
+      <Margins>0.25,0.25,0.25,0.25</Margins>
+      <Name>Page1</Name>
+      <PageHeight>8.27</PageHeight>
+      <PageWidth>5.83</PageWidth>
+      <PaperSize>A5</PaperSize>
+      <Report isRef="0" />
+      <Watermark Ref="115" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <ShowBehind>True</ShowBehind>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PrinterSettings Ref="116" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>BE_DMHD_01</ReportAlias>
+  <ReportChanged>6/27/2026 11:18:07 AM</ReportChanged>
+  <ReportCreated>1/14/2017 9:46:41 AM</ReportCreated>
+  <ReportFile>D:\WORK\Cyber_9.0\CyberAppGoldenR3_Xm_SangThu\Repo\BE_DmHD_00.mrt</ReportFile>
+  <ReportGuid>efd6e7223bd04c4a9dc5c3701d35f70c</ReportGuid>
+  <ReportImage isNull="true" />
+  <ReportName>BE_DMHD_01</ReportName>
+  <ReportUnit>Inches</ReportUnit>
+  <ReportVersion>2017.1.11.0</ReportVersion>
+  <Script>Imports System
+Imports System.Drawing
+Imports System.Windows.Forms
+Imports System.Data
+Imports Stimulsoft.Controls
+Imports Stimulsoft.Base.Drawing
+Imports Stimulsoft.Report
+Imports Stimulsoft.Report.Dialogs
+Imports Stimulsoft.Report.Components
+
+Namespace Reports
+    Public Class Report
+        Inherits Stimulsoft.Report.StiReport
+
+        Public Sub New()
+            MyBase.New
+			Me.InitializeComponent
+        End Sub
+
+        #Region "StiReport Designer generated code - do not modify"
+		#End Region 'StiReport Designer generated code - do not modify
+    End Class
+End Namespace
+</Script>
+  <ScriptLanguage>VB</ScriptLanguage>
+  <Styles isList="true" count="1">
+    <StyleData1 Ref="117" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderFormatting>False</AllowUseBorderFormatting>
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <AllowUseFont>False</AllowUseFont>
+      <AllowUseTextBrush>False</AllowUseTextBrush>
+      <Brush>[240:237:232]</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Arial,8</Font>
+      <Name>StyleData1</Name>
+      <TextBrush>Blue</TextBrush>
+    </StyleData1>
+  </Styles>
+</StiSerializer>

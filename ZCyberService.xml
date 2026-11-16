@@ -1,0 +1,473 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ZCyberService
+</name>
+</assembly>
+<members>
+<member name="T:ZCyberService.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ZCyberService.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ZCyberService.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:ZCyberService.VTSms.Exception">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.Exception.message">
+<remarks/>
+</member>
+<member name="T:ZCyberService.VTSms.result">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.result.message">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.result.messageId">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.result.messageIdSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.result.result1">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.result.result1Specified">
+<remarks/>
+</member>
+<member name="T:ZCyberService.VTSms.resultMultiReceiver">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.resultMultiReceiver.details">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.resultMultiReceiver.msgId">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.resultMultiReceiver.receiver">
+<remarks/>
+</member>
+<member name="T:ZCyberService.VTSms.resultCp">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.resultCp.alias">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.resultCp.cpCode">
+<remarks/>
+</member>
+<member name="T:ZCyberService.VTSms.failSubReponse">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.failSubReponse.errorCode">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.failSubReponse.message">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.failSubReponse.result">
+<remarks/>
+</member>
+<member name="T:ZCyberService.VTSms.failSub">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.failSub.receiver">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.failSub.message">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.failSub.mtTime">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.failSub.numMt">
+<remarks/>
+</member>
+<member name="T:ZCyberService.VTSms.requestMt">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.requestMt.content">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.requestMt.contentType">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.requestMt.receiverID">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.requestMt.requestID">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.requestMt.serviceID">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.requestMt.userID">
+<remarks/>
+</member>
+<member name="T:ZCyberService.VTSms.createMtResult">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.createMtResult.errCode">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.createMtResult.errDesc">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.createMtResult.responseMt">
+<remarks/>
+</member>
+<member name="T:ZCyberService.VTSms.responseMt">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.responseMt.message">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.responseMt.requestId">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.responseMt.result">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.responseMt.resultSpecified">
+<remarks/>
+</member>
+<member name="T:ZCyberService.VTSms.resultDlr">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.resultDlr.details">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.resultDlr.message">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.resultDlr.result">
+<remarks/>
+</member>
+<member name="T:ZCyberService.VTSms.resultDlrDetail">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.resultDlrDetail.dlrStatus">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.resultDlrDetail.messageId">
+<remarks/>
+</member>
+<member name="T:ZCyberService.VTSms.reportHourBO">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportHourBO.cpAlias">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportHourBO.cpCode">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportHourBO.cpId">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportHourBO.cpIdSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportHourBO.message">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportHourBO.mtError">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportHourBO.mtErrorSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportHourBO.mtErrorAlias">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportHourBO.mtErrorAliasSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportHourBO.mtFailure">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportHourBO.mtFailureSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportHourBO.mtSent">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportHourBO.mtSentSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportHourBO.mtSentOut">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportHourBO.mtSentOutSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportHourBO.mtSentVt">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportHourBO.mtSentVtSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportHourBO.reportHour">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportHourBO.reportHourId">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportHourBO.reportHourIdSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportHourBO.result">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportHourBO.resultSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportHourBO.smsSent">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportHourBO.smsSentSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportHourBO.smsSentOut">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportHourBO.smsSentOutSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportHourBO.smsSentVt">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportHourBO.smsSentVtSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportHourBO.sumMT">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportHourBO.sumMTSpecified">
+<remarks/>
+</member>
+<member name="T:ZCyberService.VTSms.reportDailyBO">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportDailyBO.cpAlias">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportDailyBO.cpCode">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportDailyBO.cpId">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportDailyBO.cpIdSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportDailyBO.message">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportDailyBO.mtError">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportDailyBO.mtErrorSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportDailyBO.mtErrorAlias">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportDailyBO.mtErrorAliasSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportDailyBO.mtFailure">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportDailyBO.mtFailureSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportDailyBO.mtSent">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportDailyBO.mtSentSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportDailyBO.mtSentOut">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportDailyBO.mtSentOutSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportDailyBO.mtSentVt">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportDailyBO.mtSentVtSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportDailyBO.reportDailyId">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportDailyBO.reportDailyIdSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportDailyBO.reportDate">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportDailyBO.result">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportDailyBO.resultSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportDailyBO.smsSent">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportDailyBO.smsSentSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportDailyBO.smsSentOut">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportDailyBO.smsSentOutSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportDailyBO.smsSentVt">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportDailyBO.smsSentVtSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportDailyBO.sumMT">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportDailyBO.sumMTSpecified">
+<remarks/>
+</member>
+<member name="T:ZCyberService.VTSms.reportMonthBO">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportMonthBO.cpAlias">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportMonthBO.cpCode">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportMonthBO.cpId">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportMonthBO.cpIdSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportMonthBO.message">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportMonthBO.mtError">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportMonthBO.mtErrorSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportMonthBO.mtErrorAlias">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportMonthBO.mtErrorAliasSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportMonthBO.mtFailure">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportMonthBO.mtFailureSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportMonthBO.mtSent">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportMonthBO.mtSentSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportMonthBO.mtSentOut">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportMonthBO.mtSentOutSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportMonthBO.mtSentVt">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportMonthBO.mtSentVtSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportMonthBO.reportMonth">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportMonthBO.reportMonthId">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportMonthBO.reportMonthIdSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportMonthBO.result">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportMonthBO.resultSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportMonthBO.smsSent">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportMonthBO.smsSentSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportMonthBO.smsSentOut">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportMonthBO.smsSentOutSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportMonthBO.smsSentVt">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportMonthBO.smsSentVtSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportMonthBO.sumMT">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.reportMonthBO.sumMTSpecified">
+<remarks/>
+</member>
+<member name="T:ZCyberService.VTSms.msgRequest">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.msgRequest.message">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.msgRequest.msgId">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.msgRequest.receiver">
+<remarks/>
+</member>
+<member name="T:ZCyberService.VTSms.cpBalance">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.cpBalance.balance">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.cpBalance.balanceSpecified">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.cpBalance.errCode">
+<remarks/>
+</member>
+<member name="P:ZCyberService.VTSms.cpBalance.errDesc">
+<remarks/>
+</member>
+</members>
+</doc>
